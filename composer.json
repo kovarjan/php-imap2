@@ -37,7 +37,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Javanile\\Imap2\\": "src"
+      "kovarjan\\Imap2\\": "src"
     },
     "files": [
       "bootstrap.php"
@@ -45,7 +45,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Javanile\\Imap2\\Tests\\": "tests"
+      "kovarjan\\Imap2\\Tests\\": "tests"
     }
   },
   "minimum-stability": "dev",
