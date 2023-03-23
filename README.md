@@ -4,8 +4,6 @@
 
 # PHP IMAP2
 
-[![Linter](https://github.com/javanile/php-imap2/actions/workflows/linter.yml/badge.svg)](https://github.com/javanile/php-imap2/actions/workflows/linter.yml)
-
 </div>
 
 ## Requirements
@@ -15,7 +13,7 @@
 ## Install
 
 ```shell
-composer require javanile/php-imap2
+composer require kovarjan/php-imap2
 ```
 
 or
@@ -63,3 +61,5 @@ Scope: https://mail.google.com/
 - <https://www.atmail.com/blog/imap-commands/>
 - <https://developers.google.com/gmail/imap/xoauth2-protocol>
 - <https://github.com/ddeboer/imap/issues/443#issuecomment-1172158902>
+
+### Modified fork of javanile/php-imap2 by kovarjan
