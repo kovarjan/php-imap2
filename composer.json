@@ -1,5 +1,5 @@
 {
-  "name": "javanile/php-imap2",
+  "name": "kovarjan/php-imap2",
   "type": "library",
   "description": "PHP IMAP with OAUTH2",
   "keywords": [
@@ -12,12 +12,16 @@
     "outlook",
     "exchange"
   ],
-  "homepage": "https://github.com/javanile/php-imap2",
+  "homepage": "https://github.com/kovarjan/php-imap2",
   "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Francesco Bianco",
       "homepage": "https://github.com/francescobianco"
+    },
+    {
+      "name": "Jan Kovar",
+      "homepage": "https://github.com/kovarjan"
     }
   ],
   "require": {
