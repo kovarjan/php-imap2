@@ -308,6 +308,13 @@ class Message
         }
     }
 
+    /**
+     * @param Connection $imap
+     * @param string $sequence
+     * @param int $flags
+     * 
+     * @return array|bool
+     */
     public static function fetchOverview($imap, $sequence, $flags = 0)
     {
         if (!is_a($imap, Connection::class)) {
@@ -317,8 +324,13 @@ class Message
         $client = $imap->getClient();
         #$client->setDebug(true);
 
+        $body = 'BODY';
+        if ($flags & FT_UID || $flags & FT_PEEK) {
+            $body = 'BODY.PEEK';
+        }
+
         $messages = $client->fetch($imap->getMailboxName(), $sequence, false, [
-            'BODY[HEADER.FIELDS (SUBJECT FROM TO CC REPLYTO MESSAGEID DATE SIZE REFERENCES)]',
+            $body . '[HEADER.FIELDS (SUBJECT FROM TO CC REPLYTO MESSAGEID DATE SIZE REFERENCES)]',
             'UID',
             'FLAGS',
             'INTERNALDATE',
