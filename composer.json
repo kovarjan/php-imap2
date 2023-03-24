@@ -1,5 +1,5 @@
 {
-  "name": "kovarjan/php-imap2",
+  "name": "javanile/php-imap2",
   "type": "library",
   "description": "PHP IMAP with OAUTH2",
   "keywords": [
@@ -13,7 +13,7 @@
     "exchange"
   ],
   "homepage": "https://github.com/kovarjan/php-imap2",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "authors": [
     {
       "name": "Francesco Bianco",
@@ -37,7 +37,7 @@
   },
   "autoload": {
     "psr-4": {
-      "kovarjan\\Imap2\\": "src"
+      "Javanile\\Imap2\\": "src"
     },
     "files": [
       "bootstrap.php"
@@ -45,7 +45,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "kovarjan\\Imap2\\Tests\\": "tests"
+      "Javanile\\Imap2\\Tests\\": "tests"
     }
   },
   "minimum-stability": "dev",
