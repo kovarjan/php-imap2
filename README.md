@@ -1,6 +1,7 @@
 <div align="center">
 
 ![PHP IMAP2](docs/logo.png)
+![PHP IMAP2](docs/acmarkLogo.png)
 
 # PHP IMAP2
 
@@ -13,12 +14,8 @@
 ## Install
 
 ```shell
-composer require kovarjan/php-imap2
+composer require javanile/php-imap2:dev-acmark
 ```
-
-or
-
-Download latest release 
 
 ## Usage
 
@@ -63,3 +60,5 @@ Scope: https://mail.google.com/
 - <https://github.com/ddeboer/imap/issues/443#issuecomment-1172158902>
 
 ### Modified fork of javanile/php-imap2 by kovarjan
+
+- added support for flags in imap2_fetch_overview() (FT_PEEK, FT_UID) - overview will not set all mail as read

@@ -21,7 +21,7 @@ This was full tested, every input to imap2_* functions get back the same output 
 This libray can be installed with composer
 
 ```shell
-composer require kovarjan/php-imap2
+composer require javanile/php-imap2:dev-acmark
 ```
 
 This library introduce a easy way to replace the old PHP-IMAP with new one:
