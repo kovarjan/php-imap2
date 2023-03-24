@@ -1,11 +1,16 @@
 <div align="center">
 
-![PHP IMAP2](docs/logo.png)
-![PHP IMAP2](docs/acmarkLogo.png)
+![PHP IMAP2](docs/logo.png)   
+
 
 # PHP IMAP2
 
+<div>
+<img src="docs/acmarkLogo.png"  width="215" height="45">
 </div>
+
+</div>
+
 
 ## Requirements
 
