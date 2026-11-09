@@ -88,6 +88,8 @@ class ImapClient
 
     const DEBUG_LINE_LENGTH = 4098; // 4KB + 2B for \r\n
 
+    public $user;
+
 
     /**
      * Send simple (one line) command to the connection stream
